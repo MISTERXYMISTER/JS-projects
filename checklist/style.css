@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+    background: linear-gradient(#05161A,#072E33);
+    max-height: 100vh;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.header h2{
+    color: white;
+    font-family:sans-serif;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+.mid input{
+    border: none;
+    outline: 0;
+    padding: 12px 0;
+    margin-left: 30px;
+    padding-right: 180px; 
+    padding-left: 10px;
+    border-radius: 50px;
+    background-color: white ;
+}
+
+.mid button{
+    position: absolute;
+    right: 16px;
+    padding: 12px 20px;
+    border-radius: 50px;
+    background-color: #294D61;
+    outline: none;
+    border: 1px solid;
+    color: white;
+    cursor: pointer;
+}
+
+.list{
+    padding: 20px 50px;
+}
+
+
+.list  li{
+    list-style: none;
+    color: #6DA5C0;
+    font-size: 18px;
+    font-family:sans-serif;
+    padding: 5px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.list li::before{
+    content: '';
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    background-image: url(circle-stroke-rounded.svg);
+    position: absolute;
+    left: -30px;
+    top: 7px;
+    background-size: cover;
+}
+
+.list li.checked{
+    color: #264e54;
+    text-decoration: line-through;
+}
+
+.list li.checked::before{
+    background-image: url(checkmark-circle-02-stroke-rounded.svg);
+    transition: 1s all;
+    background-color: green;
+}
+    
+span{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    font-size: 20px;
+    right: 0;
+    top: 5px;
+}
+
+span:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s ;
+}
