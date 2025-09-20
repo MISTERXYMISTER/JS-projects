@@ -1,4 +1,4 @@
-# 🚀 3D-Image Rotater
+# 🚀 Calculator
 
 ![Project Screenshot](images/Thumbnail.png)
 

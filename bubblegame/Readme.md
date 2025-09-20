@@ -1,4 +1,4 @@
-# 🚀 3D-Image Rotater
+# 🚀 Bubble game
 
 ![Project Screenshot](images/Thumbnail.png)
 

@@ -1,4 +1,4 @@
-# 🚀 3D-Image Rotater
+# 🚀 Checklist
 
 ![Project Screenshot](images/Thumbnail.png)
 
