@@ -10,5 +10,5 @@
 ## 📦 How to Run Locally
 
 ```bash
-git clone https://github.com/MISTERXYMISTER/SonicRunner.git
-cd SonicRunner
+git clone https://github.com/MISTERXYMISTER/JS-projects.git
+cd JS-projects
